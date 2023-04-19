@@ -1,7 +1,25 @@
-:root body {
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+
+
+}
+
+body {
     background-color: #FFFFFF;
-    font-family: 'Roboto';
-    color: #434455
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-style: normal;
+    font-weight: 500;
 }
 
 /* Header */
@@ -33,7 +51,7 @@
 .web-logo {
     width: 71px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -55,19 +73,24 @@
     left: 0px;
     top: 0px;
 }
-
-.list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-    list-style: none;
+.list{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+}
+.list .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color:var(--color-navy-blue);
 }
 
 .mail {
@@ -98,6 +121,10 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header {
+    background-color: #FFFFFF;
 }
 
 /* Hero */
