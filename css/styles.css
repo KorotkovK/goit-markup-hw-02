@@ -47,16 +47,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .header-list .list {
     list-style: none;
-}
-
-.header-item,
-.link {
-    text-decoration: none;
 }
 
 .link:hover,
@@ -68,21 +63,18 @@ body {
 
 .contacts {
     color: #434455;
+    font-style: normal;
+
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-item link:hover .contacts-item link:focus {
     color: #404bbf;
 }
 
-.contacts-list-mail {
-    left: 940px;
-    top: 24px;
-}
-
-.contacts-list-number {
-    left: 1133px;
-    top: 24px
+.contacts-item link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .header {
@@ -146,17 +138,6 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-}
-
-.header-item {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    height: 24px;
 }
 
 /* Section 2 */
