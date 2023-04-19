@@ -92,6 +92,12 @@ top: 24px;
     text-decoration: none;
     color:var(--color-navy-blue);
 }
+.link:hover, .link:focus {
+    color: #2e2f42;
+    text-decoration: none;
+    color: #404bbf;
+}
+
 
 .mail {
     position: absolute;
