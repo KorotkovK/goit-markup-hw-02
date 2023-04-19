@@ -24,15 +24,6 @@ body {
 
 /* Header */
 .logo-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -41,29 +32,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    text-decoration: none;
-
 }
 
 .web-logo {
-    width: 71px;
-    height: 21px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #2E2F42;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    line-height: 1.17
 }
 
 .link {
@@ -77,10 +49,16 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.header-list
-.list {
-list-style: none;
+
+.header-list .list {
+    list-style: none;
 }
+
+.header-item,
+.link {
+    text-decoration: none;
+}
+
 .link:hover,
 .link:focus {
     color: #2e2f42;
