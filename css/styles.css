@@ -445,5 +445,26 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-
+}
+/* Portfolio */
+.list {
+    list-style: none;
+}
+.nav-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.nav-button:hover {
+    color: #FFFFFF;
+    background-color: #404bbf;
+}
+.nav-button:focus {
+    color: #FFFFFF;
+    background-color: #404bbf;
 }
