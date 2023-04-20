@@ -35,7 +35,7 @@ body {
 }
 
 .web-logo {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .link {
@@ -490,9 +490,4 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
-}
-
-.web-logo .logo {
-    color: #F4F4FD;
 }
