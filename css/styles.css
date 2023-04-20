@@ -62,7 +62,10 @@ body {
     color: #434455;
 }
 
-.header-list .link:hover,
+.header-list .link:hover {
+    color: #404bbf;
+}
+
 .header-list .link:focus {
     color: #404bbf;
 }
@@ -245,50 +248,9 @@ body {
     flex-grow: 0;
 }
 
-.punctuality-text {
-    width: 264px;
-    height: 72px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
 
-.diligence-text {
-    width: 264px;
-    height: 72px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
 
-.technologies-text {
-    width: 264px;
-    height: 72px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
+
 
 /* Section 3 */
 .third-section {
@@ -309,7 +271,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -361,6 +323,7 @@ body {
     height: 732px;
     left: 0px;
     top: 1548px;
+    background-color: #F4F4FD;
 }
 
 .team-subject {
@@ -373,7 +336,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -447,6 +410,20 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 
+}
+
+.hiden-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.hiden-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
