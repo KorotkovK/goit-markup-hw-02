@@ -75,10 +75,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.item:hover {
-    color: #404bbf
-}
-.contacts-item:hover {
+.item .link:hover {
     color: #404bbf
 }
 
