@@ -76,7 +76,7 @@ body {
     color: #434455;
 }
 
-.contacts-item:hover {
+.contacts-item link:hover {
     color: #404bbf
 }
 
