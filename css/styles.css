@@ -244,6 +244,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.fourth-section {
+    background-color: #F4F4FD;
+}
+
 /* Footer */
 .footer {
     background: #2E2F42;
@@ -257,6 +261,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+.web-logo-footer {
+    color: #f4f4fd;
 }
 
 /* Portfolio */
