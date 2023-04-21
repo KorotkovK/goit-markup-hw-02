@@ -230,7 +230,7 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.hiden-title {
+.hidden-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -238,7 +238,7 @@ body {
     color: var(--color-navy-blue);
 }
 
-.hiden-text {
+.hidden-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
